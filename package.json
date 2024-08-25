@@ -1,8 +1,11 @@
 {
-  "name": "rsbuild-user-script-plugin",
+  "name": "@dktpham/rsbuild-user-script-plugin",
   "author": "dktpham",
-  "version": "0.0.1",
-  "repository": "https://github.com/dktpham/rsbuild-user-script-plugin",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dktpham/rsbuild-user-script-plugin.git"
+  },
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -58,5 +61,14 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "description": "rsbuild plugin to develop user-scripts",
+  "keywords": [
+    "rsbuild-plugin",
+    "user-script"
+  ],
+  "bugs": {
+    "url": "https://github.com/dktpham/rsbuild-user-script-plugin/issues"
+  },
+  "homepage": "https://github.com/dktpham/rsbuild-user-script-plugin#readme"
 }

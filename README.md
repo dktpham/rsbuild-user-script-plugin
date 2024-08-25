@@ -5,9 +5,9 @@
 Install:
 
 ```bash
-pnpm add rsbuild-user-script-plugin -D
+pnpm add @dktpham/rsbuild-user-script-plugin -D
 
-yarn add rsbuild-user-script-plugin -D
+yarn add @dktpham/rsbuild-user-script-plugin -D
 ```
 
 Add the plugin to your `rsbuild.config.ts` and configure accordingly:
