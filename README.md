@@ -14,7 +14,7 @@ Add the plugin to your `rsbuild.config.ts` and configure accordingly:
 
 ```ts
 // rsbuild.config.ts
-import {pluginExample} from "rsbuild-plugin-example";
+import { pluginUserScript } from "@dktpham/rsbuild-user-script-plugin";
 
 export default defineConfig({
     plugins: [
