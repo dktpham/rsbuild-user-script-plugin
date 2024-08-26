@@ -46,7 +46,8 @@ You need the following scripts that should come by default anyway:
 {
   "scripts": {
     "dev": "rsbuild dev",
-    "preview": "rsbuild preview"
+    "preview": "rsbuild preview",
+    "build": "rsbuild build"
   }
 }
 ```
